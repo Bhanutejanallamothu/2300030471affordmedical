@@ -1,0 +1,15 @@
+backend/node_modules/
+frontend/node_modules/
+frontend/dist/
+.env
+backend/.env
+frontend/.env
+backend/*-check-*.log
+graphify-out/.graphify*
+graphify-out/cache/
+log.txt
+schema.sql
+graphify-out/
+graphify-out/graph.html
+graphify-out/graph.json
+graphify-out/GRAPH_REPORT.md
