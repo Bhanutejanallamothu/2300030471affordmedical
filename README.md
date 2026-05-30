@@ -42,8 +42,4 @@ cd backend
 npm.cmd run priority
 ```
 
-## Graphify outputs
 
-- `graphify-out/graph.html`
-- `graphify-out/graph.json`
-- `graphify-out/GRAPH_REPORT.md`
