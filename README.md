@@ -12,6 +12,7 @@ This repository is organized exactly as requested:
 
 ### Backend
 
+
 ```powershell
 cd backend
 Copy-Item .env.example .env
