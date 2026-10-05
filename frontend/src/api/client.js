@@ -2,7 +2,7 @@ import { Log } from "../utils/logger.js";
 
 const RAW_API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
 export const STUDENT_ID = import.meta.env.VITE_STUDENT_ID ?? "1042";
-const EXTERNAL_EVALUATION_HOST = "http://4.224.186.213";
+const EXTERNAL_EVALUATION_HOST = import.meta.env.VITE_EVAL_HOST ?? "http://localhost:4000";
 
 function resolveApiBaseUrl() {
   const trimmed = RAW_API_BASE_URL.trim().replace(/\/+$/, "");

@@ -25,13 +25,13 @@ export const config = {
   defaultStudentId: process.env.DEFAULT_STUDENT_ID ?? "1042",
   evaluationApiUrl:
     process.env.EVALUATION_API_URL ??
-    "http://4.224.186.213/evaluation-service/notifications",
+    "http://localhost:4000/evaluation-service/notifications",
   evaluationApiToken: process.env.EVALUATION_API_TOKEN ?? "",
   evaluationApiTokenExpiresAt:
     process.env.EVALUATION_API_TOKEN_EXPIRES_AT ?? "",
   evaluationLogUrl:
     process.env.EVALUATION_LOG_URL ??
-    "http://4.224.186.213/evaluation-service/logs",
+    "http://localhost:4000/evaluation-service/logs",
   evaluationLogToken: process.env.EVALUATION_LOG_TOKEN ?? "",
   evaluationLogTokenExpiresAt:
     process.env.EVALUATION_LOG_TOKEN_EXPIRES_AT ?? "",

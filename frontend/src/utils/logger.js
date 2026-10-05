@@ -34,7 +34,7 @@ const MAX_MESSAGE_LENGTH = 48;
 const RAW_API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? "";
 const RAW_DIRECT_LOG_URL = import.meta.env.VITE_EVALUATION_LOG_URL ?? "";
 const DIRECT_LOG_TOKEN = import.meta.env.VITE_EVALUATION_LOG_TOKEN ?? "";
-const EXTERNAL_EVALUATION_HOST = "http://4.224.186.213";
+const EXTERNAL_EVALUATION_HOST = import.meta.env.VITE_EVAL_HOST ?? "http://localhost:4000";
 
 function normalizeBaseUrl(value) {
   return value.trim().replace(/\/+$/, "");
